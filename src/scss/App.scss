@@ -1,0 +1,98 @@
+@import './helpers/colors';
+@import './helpers/card';
+
+.App {
+  background-color: $purplereign;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: $truewhite;
+  padding: 60px 10px auto 10px;
+}
+
+
+/** Color palette */
+.bluerazz {
+  background-color: $bluerazz;
+  border-color: $bluerazz;
+
+  &.secondary {
+    color: $bluerazz;
+    background-color: $truewhite;
+  }
+}
+
+.wildberry {
+  background-color: $wildberry;
+  border-color: $wildberry;
+
+  &.secondary {
+    color: $wildberry;
+    background-color: $truewhite;
+  }
+}
+
+.bubblegum {
+  background-color: $bubblegum;
+  border-color: $bubblegum;
+
+  &.secondary {
+    color: $bubblegum;
+    background-color: $truewhite;
+  }
+}
+
+.orangecream {
+  background-color: $orangecream;
+  border-color: $orangecream;
+  
+  &.secondary {
+    color: $orangecream;
+    background-color: $truewhite;
+  }
+}
+
+.calc {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.calc-btn {
+  font-size: 18px;
+}
+
+.calc-result {
+  font-size: 36px;
+  color: #FFFFFF;
+  display: flex;
+  padding: 10px;
+  background-color: #dfffef40;
+  width: 78%;
+  max-height: 40px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin: 5px;
+}
+
+.calc-display {
+  font-size: 22px;
+  color: #eaef80;
+}
+
+.row {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.col {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+}

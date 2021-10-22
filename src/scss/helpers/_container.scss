@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+@media(min-width: 768px) {
+  .container {
+    flex-flow: row wrap;
+  }
+}
